@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page non trouvée - JekaHome</title>
+  <title>Page not-found - JekaHome</title>
  <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="bg-[#F3F4F6] min-h-screen flex items-center justify-center px-6">

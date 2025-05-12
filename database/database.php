@@ -2,7 +2,7 @@
 define('DBNAME', 'gestion_reservation');
 define('DBHOST', 'localhost');
 define('DBUSER', 'root');
-define('DBPASS', 'gestion_reservation');
+define('DBPASS', '');
 $dsn="mysql:dbname=".DBNAME."; host=".DBHOST;
 try{
 
@@ -12,3 +12,4 @@ try{
 }catch(PDOException $e){
     die("Erreur:".$e->getMessage());
 }
+?>
