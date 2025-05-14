@@ -8,7 +8,7 @@
     <title>jekaHome <?= $pageTitle ?></title>
 </head>
 
-<body>
+<body class='bg-[#1E3A8A]'>
 
 
 
@@ -22,7 +22,7 @@
                 <a href="#" class="hover:text-[#A8BDB3] transition">Accueil</a>
                 <a href="#logements" class="hover:text-[#A8BDB3] transition">Logements</a>
                 <a href="#meubles" class="hover:text-[#A8BDB3] transition">Meubles</a>
-                <a href="#a-propos" class="hover:text-[#A8BDB3] transition">À propos</a>
+                <a href="about.php" class="hover:text-[#A8BDB3] transition">À propos</a>
                 <a href="#contact" class="hover:text-[#A8BDB3] transition">Contact</a>
             </div>
 
@@ -49,7 +49,7 @@
             <a href="#" class="block text-sm hover:text-[#A8BDB3]">Accueil</a>
             <a href="#logements" class="block text-sm hover:text-[#A8BDB3]">Logements</a>
             <a href="#meubles" class="block text-sm hover:text-[#A8BDB3]">Meubles</a>
-            <a href="#a-propos" class="block text-sm hover:text-[#A8BDB3]">À propos</a>
+            <a href="about.php" class="block text-sm hover:text-[#A8BDB3]">À propos</a>
             <a href="#contact" class="block text-sm hover:text-[#A8BDB3]">Contact</a>
             <a href="#connexion" class="block text-sm text-[#1E3A8A] bg-white rounded px-3 py-1 mt-2">Connexion</a>
             <a href="#inscription" class="block text-sm bg-[#A8BDB3] text-white rounded px-3 py-1">Inscription</a>

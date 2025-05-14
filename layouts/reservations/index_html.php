@@ -16,7 +16,7 @@
 
     <!-- Image -->
     <div class="w-full  mb-10 md:mb-0">
-      <img src="../../assets/image_hero-section.jpg" alt="Apprentissage informatique" class="w-full max-w-md mx-auto max-h-[350px]" />
+      <img src="../assets/image_hero-section.jpg" alt="Apprentissage informatique" class="w-full max-w-md mx-auto max-h-[350px]" />
     </div>
 
   </div>
