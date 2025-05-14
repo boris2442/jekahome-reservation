@@ -1,6 +1,6 @@
 <section class="bg-[#1E3A8A] min-h-screen flex items-center justify-center">
     <div class="bg-white shadow-lg rounded-xl w-full max-w-md p-8 border border-[#D9B08C]">
-        <h2 class="text-3xl font-bold text-[#1E3A8A] mb-6 text-center">Créer un compte JekaHome</h2>
+        <h2 class="text-3xl font-bold text-[#1E3A8A] mb-6 text-center">Connexion au compte</h2>
 
         <form method="POST" class="space-y-4">
 
