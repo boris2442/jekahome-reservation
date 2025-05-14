@@ -28,8 +28,8 @@
 
             <!-- Boutons espace membre -->
             <div class="hidden md:flex space-x-4">
-                <a href="#connexion" class="bg-white text-[#1E3A8A] px-4 py-2 rounded hover:bg-[#A8BDB3] hover:text-white transition">Connexion</a>
-                <a href="#inscription" class="bg-[#A8BDB3] text-white px-4 py-2 rounded hover:bg-[#D9B08C] transition">Inscription</a>
+                <a href="connexion.php" class="bg-white text-[#1E3A8A] px-4 py-2 rounded hover:bg-[#A8BDB3] hover:text-white transition">Connexion</a>
+                <a href="inscription.php" class="bg-[#A8BDB3] text-white px-4 py-2 rounded hover:bg-[#D9B08C] transition">Inscription</a>
             </div>
 
             <!-- Menu mobile -->

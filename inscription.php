@@ -5,7 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = [];
 
     // Nettoyage des données
-    function clean_input($data) {
+    function clean_input($data)
+    {
         return htmlspecialchars(trim($data));
     }
 
@@ -47,7 +48,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $requete->bindValue(':email', $email);
         $requete->bindValue(':password', $password);
         $requete->execute();
-
+?>
+        <script>
+            alert("bous avez été inscrit avec success")
+        </script>
+<?php
         header('Location: connexion.php');
         exit();
     }
