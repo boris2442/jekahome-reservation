@@ -442,6 +442,9 @@
   .bg-\[primary\] {
     background-color: primary;
   }
+  .bg-\[white\] {
+    background-color: white;
+  }
   .bg-blue-900 {
     background-color: var(--color-blue-900);
   }
@@ -575,6 +578,9 @@
   }
   .text-\[primary\] {
     color: primary;
+  }
+  .text-\[te\] {
+    color: te;
   }
   .text-gray-600 {
     color: var(--color-gray-600);

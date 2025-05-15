@@ -19,11 +19,11 @@
 
             <!-- Menu -->
             <div class="hidden md:flex space-x-6 text-sm">
-                <a href="#" class="hover:text-[#A8BDB3] transition">Accueil</a>
-                <a href="#logements" class="hover:text-[#A8BDB3] transition">Logements</a>
-                <a href="#meubles" class="hover:text-[#A8BDB3] transition">Meubles</a>
+                <a href="index.php" class="hover:text-[#A8BDB3] transition">Accueil</a>
+                <a href="logement.php" class="hover:text-[#A8BDB3] transition">Logements</a>
+                <a href="meuble.php" class="hover:text-[#A8BDB3] transition">Meubles</a>
                 <a href="about.php" class="hover:text-[#A8BDB3] transition">À propos</a>
-                <a href="#contact" class="hover:text-[#A8BDB3] transition">Contact</a>
+                <a href="contact.php" class="hover:text-[#A8BDB3] transition">Contact</a>
             </div>
 
             <!-- Boutons espace membre -->
