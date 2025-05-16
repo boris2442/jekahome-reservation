@@ -1,7 +1,4 @@
 <?php
-session_start();
-require 'database/database.php';
-// Pour afficher la page
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['users']['id'])) {
     $user_id = $_SESSION['users']['id'];
     if (!empty($_POST['user_id'])) {
@@ -20,21 +17,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['users']['id'])) {
         }
     }
 }
-//  else {
-//     header('location:connexion.php');
-//     exit();
-// }
-
-
-
-
-
-$pageTitle = 'Inscription';
-ob_start();
-require_once 'layouts/reservations/logement_html.php';
-$pageContent = ob_get_clean();
-require_once 'layouts/layout_html.php';
-
-
-
-?>

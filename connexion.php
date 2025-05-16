@@ -24,8 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if ($_SESSION['users']['roles'] === 'admin') {
                 header('location:admin.php');
                 // exit();
-            }else{
-                header('location:index.php');
+            } else {
+                header('location:logement.php');
             }
         } else {
             $errors['login'] = "Identifiants incorrects";

@@ -1,3 +1,8 @@
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +20,10 @@
     <nav class="bg-[#1E3A8A] text-white px-6 py-4 shadow-md">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo -->
+             <?php 
+             if(isset($_SESSION['users']['id'])){
+                ?>
+          
             <a href="#" class="text-2xl font-bold tracking-wide">JekaHome</a>
 
             <!-- Menu -->
@@ -24,14 +33,23 @@
                 <a href="meuble.php" class="hover:text-[#A8BDB3] transition">Meubles</a>
                 <a href="about.php" class="hover:text-[#A8BDB3] transition">À propos</a>
                 <a href="contact.php" class="hover:text-[#A8BDB3] transition">Contact</a>
+              
+
+                
             </div>
 
             <!-- Boutons espace membre -->
             <div class="hidden md:flex space-x-4">
+                <a href="deconnexion.php" class="bg-white text-[#1E3A8A] px-4 py-2 rounded hover:bg-[#A8BDB3] hover:text-white transition">deconnexion</a>
+            </div>
+            <?php }else { ?>
+            <div class="hidden md:flex space-x-4">
                 <a href="connexion.php" class="bg-white text-[#1E3A8A] px-4 py-2 rounded hover:bg-[#A8BDB3] hover:text-white transition">Connexion</a>
                 <a href="inscription.php" class="bg-[#A8BDB3] text-white px-4 py-2 rounded hover:bg-[#D9B08C] transition">Inscription</a>
             </div>
-
+<?php 
+}
+?>
             <!-- Menu mobile -->
             <div class="md:hidden">
                 <button id="menu-toggle" class="focus:outline-none">

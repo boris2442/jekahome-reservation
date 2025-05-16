@@ -25,7 +25,7 @@
             <div>
                 <button type="submit"
                     class="w-full bg-[#1E3A8A] text-white font-semibold py-2 px-4 rounded-md hover:bg-[#A8BDB3] transition duration-300">
-                    S'inscrire
+                    Se connecter
                 </button>
             </div>
         </form>
