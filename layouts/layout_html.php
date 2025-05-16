@@ -17,7 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
 
-    <nav class="bg-[#1E3A8A] text-white px-6 py-4 shadow-md">
+    <nav class="bg-[#1E3A8A] text-white px-6 py-4 shadow-md sticky top-0 z-105">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo -->
              <?php 

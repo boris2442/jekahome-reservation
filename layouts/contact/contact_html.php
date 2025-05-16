@@ -41,8 +41,8 @@
             <!-- Message -->
             <div>
                 <label for="message" class="block text-sm font-medium text-white mb-2">Message</label>
-                <textarea id="message" name="message" rows="5" required
-                    class="resize-none w-full px-4 py-2 border-2 border-white rounded-lg focus:outline-none outline-none focus:ring-2 focus:white"></textarea>
+                <textarea id="message" name="message" rows="6" required
+                   class="resize-none w-full px-4 py-2 border-2 border-white rounded-lg focus:outline-none focus:ring-0 text-white"></textarea>
             </div>
 
             <!-- Bouton d'envoi -->

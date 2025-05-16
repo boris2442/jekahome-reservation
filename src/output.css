@@ -203,6 +203,18 @@
   }
 }
 @layer utilities {
+  .sticky {
+    position: sticky;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .z-105 {
+    z-index: 105;
+  }
+  .z-106 {
+    z-index: 106;
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -289,6 +301,9 @@
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
   .w-16 {
     width: calc(var(--spacing) * 16);
@@ -594,6 +609,9 @@
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
   }
+  .text-\[\#1D398F\] {
+    color: #1D398F;
+  }
   .text-\[\#1E3A8A\] {
     color: #1E3A8A;
   }
@@ -729,6 +747,12 @@
   .focus\:border-\[\#A8BDB3\] {
     &:focus {
       border-color: #A8BDB3;
+    }
+  }
+  .focus\:ring-0 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
   .focus\:ring-2 {

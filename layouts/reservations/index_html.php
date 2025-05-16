@@ -8,7 +8,7 @@
         Réservez des logements et meubles en toute simplicité...
       </p>
       <div class="">
-      <a href="#en-savoir-plus" class="inline-block bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
+      <a href="about.php" class="inline-block bg-white hover:bg-red-600 text-[#1D398F] font-semibold py-3 px-6 rounded-lg transition duration-300">
         En savoir plus
       </a>
       </div>
@@ -16,7 +16,7 @@
 
     <!-- Image -->
     <div class="w-full  mb-10 md:mb-0">
-      <img src="../assets/image_hero-section.jpg" alt="Apprentissage informatique" class="w-full max-w-md mx-auto max-h-[350px]" />
+      <img src="layouts/assets/image_hero-section.jpg" alt="Apprentissage_hero_section" class="w-full max-w-md mx-auto max-h-[350px]" />
     </div>
 
   </div>
