@@ -25,10 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['users']['id'])) {
 }
 
 
-
-
-
-$pageTitle = 'Inscription';
+$pageTitle = 'reservation';
 ob_start();
 require_once 'layouts/reservations/logement_html.php';
 $pageContent = ob_get_clean();

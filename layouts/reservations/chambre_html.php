@@ -1,6 +1,6 @@
 <section class="bg-[#1E3A8A] py-12">
     <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8 text-white">Decouvrez nos studios propres...</h2>
+        <h2 class="text-3xl font-bold text-center mb-8 text-white">Decouvrez nos chambres modernes et propres...</h2>
         <div class="flex justify-center mb-8 text-white">
             <ul class="flex space-x-6">
                 <li><a href="appartement.php" class="text-lg hover:underline">Appartement</a></li>
